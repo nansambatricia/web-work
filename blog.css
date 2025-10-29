@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+        background-image: url(download.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+margin: 3%;
+}
+
+.box1{
+    border: solid 1px;
+    flex-basis: 25%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 0%;
+    box-shadow: 100px;
+}
+.box2{
+    border: solid 1px;
+    flex-basis: 25%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 0%;
+    box-shadow: 300px;
+}
+.box3{
+    border: solid 1px;
+    flex-basis: 25%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 0%;
+}
+.pink-footer{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.footer-orange{
+    background-color: rgb(236, 86, 31);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.green-footer{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+#img{
+    width: 350px;
+    height: 300px;
+}
+
+#photo{
+    width: 350px;
+    height: 300px;
+}
+#image{
+    width: 350px;
+    height: 300px;
+}
+#orange text{
+    color:pink;
+}
+#green text{
+    color:#ff6600;
+}
+#pink text{
+    color:#00b140;
+}
+.views1{
+    border: solid 1px;
+    flex-basis: 40%;
+}
+.views2{
+    border: solid 1px ;
+    flex-basis: 40%;
+}
+.views3{
+    border: solid 1px ;
+    flex-basis: 40%; ;
+}
